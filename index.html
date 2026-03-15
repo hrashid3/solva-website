@@ -38,7 +38,7 @@
   </style>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
- 
+
     :root {
       --green-deep:   #1a3d2b;
       --green-mid:    #2d6a4f;
@@ -50,16 +50,16 @@
       --text-mid:     #3a4f42;
       --text-light:   #7a9083;
     }
- 
+
     html { scroll-behavior: smooth; }
- 
+
     body {
       font-family: 'DM Sans', sans-serif;
       background: var(--cream);
       color: var(--text-dark);
       overflow-x: hidden;
     }
- 
+
     /* ── NAV ── */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
@@ -88,7 +88,7 @@
       padding: 0.5rem 1.3rem; border-radius: 2px;
     }
     .nav-cta:hover { background: var(--green-mid); color: var(--cream) !important; }
- 
+
     /* ── HERO ── */
     .hero {
       min-height: 100vh;
@@ -145,7 +145,7 @@
       transition: color 0.2s;
     }
     .btn-secondary:hover { color: var(--green-bright); }
- 
+
     .hero-right {
       position: relative; overflow: hidden;
     }
@@ -205,7 +205,7 @@
       0%, 100% { box-shadow: 0 0 40px rgba(201,151,58,0.5); }
       50% { box-shadow: 0 0 70px rgba(201,151,58,0.8); }
     }
- 
+
     /* ── SECTION BASE ── */
     section { padding: 7rem 6rem; }
     .section-label {
@@ -222,7 +222,7 @@
       color: var(--green-deep); line-height: 1.15;
       letter-spacing: -0.02em; margin-bottom: 1.5rem;
     }
- 
+
     /* ── PROBLEM ── */
     .problem {
       background: var(--green-deep);
@@ -246,7 +246,7 @@
     }
     .point-text { font-size: 0.95rem; color: rgba(247,243,236,0.75); line-height: 1.6; }
     .point-text strong { color: var(--cream); }
- 
+
     /* ── HOW WE WORK ── */
     .how { background: var(--cream); }
     .how-grid {
@@ -274,7 +274,7 @@
       margin-bottom: 0.8rem;
     }
     .how-card p { font-size: 0.92rem; line-height: 1.7; color: var(--text-mid); }
- 
+
     /* ── SEGMENTS ── */
     .segments { background: #f0ede6; }
     .segments-grid {
@@ -306,7 +306,7 @@
       border: 1px solid rgba(201,151,58,0.3); padding: 0.3rem 0.7rem;
       border-radius: 2px;
     }
- 
+
     /* ── WHY SOLVA ── */
     .why { background: white; }
     .why-inner {
@@ -325,7 +325,7 @@
     .pillar:hover { border-color: var(--gold); transform: translateX(4px); }
     .pillar h4 { font-size: 1rem; font-weight: 600; color: var(--green-deep); margin-bottom: 0.5rem; }
     .pillar p { font-size: 0.9rem; line-height: 1.7; color: var(--text-mid); }
- 
+
     /* ── MARKETS ── */
     .markets { background: var(--green-deep); }
     .markets .section-title { color: var(--cream); }
@@ -346,7 +346,7 @@
       background: var(--green-bright); border-color: var(--green-bright);
       color: var(--green-deep); font-weight: 600;
     }
- 
+
     /* ── CONTACT ── */
     .contact { background: var(--cream); }
     .contact-inner {
@@ -364,7 +364,7 @@
     }
     .contact-item-text { font-size: 0.95rem; color: var(--text-mid); }
     .contact-item-text strong { display: block; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-light); margin-bottom: 0.1rem; }
- 
+
     .contact-form { display: flex; flex-direction: column; gap: 1.2rem; }
     .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
     .form-group label {
@@ -390,7 +390,7 @@
       font-family: 'DM Sans', sans-serif;
     }
     .form-submit:hover { background: var(--green-mid); transform: translateY(-1px); }
- 
+
     /* ── FOOTER ── */
     footer {
       background: #0f2419; padding: 2.5rem 6rem;
@@ -402,14 +402,14 @@
     }
     .footer-logo span { color: var(--gold); }
     .footer-text { font-size: 0.8rem; color: rgba(247,243,236,0.35); }
- 
+
     /* ── ANIMATIONS ── */
     .fade-up {
       opacity: 0; transform: translateY(30px);
       transition: opacity 0.7s ease, transform 0.7s ease;
     }
     .fade-up.visible { opacity: 1; transform: translateY(0); }
- 
+
     /* ── RESPONSIVE ── */
     @media (max-width: 900px) {
       nav { padding: 1rem 1.5rem; }
@@ -427,7 +427,7 @@
   </style>
 </head>
 <body>
- 
+
 <!-- NAV -->
 <nav>
   <a href="#home" style="text-decoration:none;display:inline-flex;align-items:center;">
@@ -460,13 +460,13 @@
     <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
   </ul>
 </nav>
- 
+
 <!-- HERO -->
 <section class="hero" id="home">
   <div class="hero-left">
     <div class="hero-eyebrow">B2B Solar Pump Trade — Pakistan to Africa</div>
     <h1>Affordable solar water pumps. <em>Delivered</em> across Africa.</h1>
-    <p class="hero-sub">Solva is a UK-registered trade facilitator supplying ISO-certified solar water pumps from Pakistani manufacturers to distributors, NGOs and government buyers across Sub-Saharan Africa — at 30–50% below European prices.</p>
+    <p class="hero-sub">Solva is a UK-registered trade facilitator supplying ISO-certified solar water pumps from Pakistani manufacturers to distributors, NGOs and government buyers across Sub-Saharan Africa backed by the accountability and after-sales support of a UK-registered trading company.</p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Enquire Now</a>
       <a href="#how" class="btn-secondary">How it works →</a>
@@ -502,7 +502,7 @@
     </div>
   </div>
 </section>
- 
+
 <!-- PROBLEM -->
 <section class="problem" id="problem">
   <div class="fade-up">
@@ -518,7 +518,7 @@
       </div>
       <div class="problem-point">
         <div class="point-icon">⚡</div>
-        <p class="point-text"><strong>The price gap</strong> — Pakistani manufacturing delivers savings of 30–50% versus European brands, with substantially better reliability than cheap alternatives.</p>
+        <p class="point-text"><strong>Quality with accountability</strong> — African buyers need certified, reliable products backed by a Western-registered partner that provides contracts, warranties and after-sales support.</p>
       </div>
       <div class="problem-point">
         <div class="point-icon">🤝</div>
@@ -527,7 +527,7 @@
     </div>
   </div>
 </section>
- 
+
 <!-- HOW WE WORK -->
 <section class="how" id="how">
   <div class="fade-up" style="max-width:600px">
@@ -569,7 +569,7 @@
     </div>
   </div>
 </section>
- 
+
 <!-- SEGMENTS -->
 <section class="segments" id="segments">
   <div class="fade-up" style="max-width:600px">
@@ -597,19 +597,19 @@
     </div>
   </div>
 </section>
- 
+
 <!-- WHY SOLVA -->
 <section class="why" id="why">
   <div class="why-inner">
     <div class="why-left fade-up">
       <div class="section-label">Why Solva</div>
       <h2 class="section-title">The right partner for African procurement</h2>
-      <p>We combine the price advantage of Pakistani manufacturing with the accountability and reliability that serious buyers demand.</p>
+      <p>We combine ISO-certified manufacturing quality with the accountability and reliability that serious buyers demand.</p>
     </div>
     <div class="why-pillars">
       <div class="pillar fade-up">
-        <h4>Price Advantage</h4>
-        <p>Pakistani manufacturing delivers 30–50% cost savings versus European brands — without compromising on quality or durability.</p>
+        <h4>Competitive Supply</h4>
+        <p>Pakistani manufacturers produce high-quality pumps at accessible price points — giving our partners a reliable, cost-effective alternative to established brands.</p>
       </div>
       <div class="pillar fade-up">
         <h4>Certified Quality</h4>
@@ -630,7 +630,7 @@
     </div>
   </div>
 </section>
- 
+
 <!-- MARKETS -->
 <section class="markets" id="markets">
   <div class="fade-up">
@@ -651,7 +651,7 @@
     <span class="market-pill">Senegal</span>
   </div>
 </section>
- 
+
 <!-- CONTACT -->
 <section class="contact" id="contact">
   <div class="contact-inner">
@@ -664,7 +664,7 @@
           <div class="contact-icon">✉️</div>
           <div class="contact-item-text">
             <strong>Email</strong>
-            info@getsolva.co.uk
+            <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="85ecebe3eac5e2e0f1f6eae9f3e4abe6eaabf0ee">[email&#160;protected]</a>
           </div>
         </div>
         <div class="contact-item">
@@ -729,7 +729,7 @@
     </div>
   </div>
 </section>
- 
+
 <!-- FOOTER -->
 <footer>
   <svg width="130" height="36" viewBox="0 0 200 56" xmlns="http://www.w3.org/2000/svg">
@@ -752,11 +752,11 @@
     <text x="58" y="30" font-family="Outfit, sans-serif" font-size="26" font-weight="300" fill="#f7f3ec" letter-spacing="3">SOLVA</text>
     <line x1="58" y1="36" x2="172" y2="36" stroke="url(#footGold)" stroke-width="1"/>
   </svg>
-  <div class="footer-text">© 2025 Solva Ltd. Registered in England & Wales.<br>info@getsolva.co.uk · getsolva.co.uk</div>
+  <div class="footer-text">© 2025 Solva Ltd. Registered in England & Wales.<br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="31585f575e71565445425e5d47501f525e1f445a">[email&#160;protected]</a> · getsolva.co.uk</div>
   <div class="footer-text">Solar Water Solutions for Africa</div>
 </footer>
- 
-<script>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   // Fade-up on scroll
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((e, i) => {
@@ -766,24 +766,24 @@
     });
   }, { threshold: 0.1 });
   document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
- 
+
   // Form submission via Formspree
   async function submitForm() {
     const btn = document.querySelector('.form-submit');
     const status = document.getElementById('form-status');
     const fname = document.getElementById('fname').value;
     const email = document.getElementById('email').value;
- 
+
     if (!fname || !email) {
       status.style.color = '#e57373';
       status.textContent = 'Please fill in at least your name and email.';
       status.style.display = 'block';
       return;
     }
- 
+
     btn.textContent = 'Sending...';
     btn.disabled = true;
- 
+
     const data = {
       name: fname + ' ' + document.getElementById('lname').value,
       email: email,
@@ -792,9 +792,9 @@
       country: document.getElementById('country').value,
       message: document.getElementById('message').value,
     };
- 
+
     try {
-      const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const res = await fetch('https://formspree.io/f/xlgpwaly', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify(data)
@@ -805,16 +805,4 @@
         btn.style.color = 'var(--green-deep)';
         status.style.color = 'var(--green-bright)';
         status.textContent = "Thanks — we'll be in touch within 1 business day.";
-        status.style.display = 'block';
-      } else { throw new Error(); }
-    } catch {
-      btn.textContent = 'Send Enquiry →';
-      btn.disabled = false;
-      status.style.color = '#e57373';
-      status.textContent = 'Something went wrong. Please email info@getsolva.co.uk directly.';
-      status.style.display = 'block';
-    }
-  }
-</script>
-</body>
-</html>
+        status.s
